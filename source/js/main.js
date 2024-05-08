@@ -594,7 +594,7 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     'mobile-toc-button': item => { // Show mobile toc
       const tocEle = document.getElementById('card-toc')
-      tocEle.style.transition = 'transform 0.3s ease-in-out'
+      tocEle.style.transition = 'transform .3s ease-in-out'
       tocEle.classList.toggle('open')
       tocEle.addEventListener('transitionend', () => {
         tocEle.style.transition = ''

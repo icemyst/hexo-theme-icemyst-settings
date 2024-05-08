@@ -1,1 +1,22 @@
-@import "//at.alicdn.com/t/font_2264842_b004iy0kk2b.css";
+/* @import "//at.alicdn.com/t/font_2264842_b004iy0kk2b.css"; */
+
+
+:root {
+    --style-border-hover: 1px solid #49b1f5;
+}
+
+
+
+
+/* 图标适配 */
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+
+
+ 
